@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "node .": "node index.js"
+    "start": "node index.js"
   },
   "author": "SamakMashwee",
   "license": "ISC",
@@ -13,5 +13,6 @@
     "discord.js": "^12.2.0",
     "opusscript": "0.0.7",
     "ytdl-core": "^3.1.2"
+    "request": "2.81.0"
   }
 }
