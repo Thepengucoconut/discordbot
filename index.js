@@ -114,5 +114,4 @@ client.on('message', message => {
     }
 });
 
-// The token for the bot
-client.login(token);
+client.login(process.env.BOT_TOKEN);//BOT_TOKEN is the Client Secret
